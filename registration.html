@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link href="contact-style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <header>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+    </nav>
+  </header>
+  <main>
+    <form class="registerform" action="#">
+            <h1 class="register-h1">REGISTRATION</h1>
+            
+            <input type="text" name="firstname"    id="fname" placeholder="First name" required>
+      
+            <input type="text" name="lastname" id="lname" placeholder="Last name" required>
+      
+            <input type="tel" name="phone number" placeholder="Phone number" id="phoneno" pattern="[0-9]{3]-[0-9]{3}-[0-9]{4}" required>
+
+            <input type="text" name="Country" placeholder="Country" required>
+
+            <input type="text" name="State" placeholder="State" required>
+      
+            <input type="email" name="email" id="email" placeholder="Email Address" required>
+      
+            <input type="password" name="" placeholder="Password" id="password" pattern = "(?=.*/d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+      
+            <input type="password"assword" name="confirm password" placeholder="Confirm Password" id="confirm password" pattern = "(?=.*/d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required >
+
+              <select>
+              <option selected>Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Prefer not to say</option>
+            </select>
+            
+            <input type="submit" value="Register">
+        </form>
+  </main>
+  <footer></footer>
+</body>
+</html>

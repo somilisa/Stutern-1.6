@@ -1,0 +1,92 @@
+ *{margin:0;
+               padding:0;
+               box-sizing: border-box;}
+body{
+  background-color:lemonchiffon;
+}
+            header{
+              min-height: 50px;              
+              margin:5px;
+              text-align: center;
+              }
+            nav{
+            float:right;
+            margin: 10px;}
+            .contact-h1{
+              margin-top:60px;
+              font-size: 250%;
+            }
+            a{margin:5px;
+               text-decoration:none;
+               color:darksalmon;
+              font-size:20px;
+            }
+            a:hover{
+              background-color: salmon;
+              padding: 5px;
+              border-radius: 5px;
+              color:lemonchiffon;}          
+            form{
+              position:relative;
+            }
+            .contact {
+            background-color:darksalmon;
+            width: 100%;
+            max-width:600px;
+            margin: 20px auto;
+            padding:20px ;
+            border: none;
+            border-radius: 5px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            }
+            .contact input, textarea { 
+            width: 100%;
+            padding: 5px;
+            margin: 5px auto;
+            border: none;
+            border-radius: 5px;}
+            #button {
+            background-color: #45A049;
+            color: white;
+            border: none;
+            text-align: center;
+            }
+            #button:hover {
+                background-color: rgb(0, 128, 0);
+            }
+          .registerform{
+            background-color: lemonchiffon;
+            width: 50%;
+            padding: 20px;
+            margin: 20px auto;
+            border: none;
+          border-radius:5px}
+        .registerform input{
+            padding: 10px ;
+            width: 100%;
+            margin: 5px auto;
+            border: solid salmon;
+            border-width: 0px 0px 3px 0px;
+        background-color: transparent;}
+          .registerform select{
+            padding: 10px ;
+            width: 50%;
+            margin: 5px auto;
+            border: none;
+            border-radius:5px;}
+          .register-h1{
+            font-size: 250%;
+            text-align: center;
+            padding-bottom: 25px;
+          }
+          ..registerform input{
+            border: none;
+          }
+          .registerform input[type="submit"]{
+            border: none;
+            
+            background-color: darksalmon;
+          }
