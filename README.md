@@ -1,5 +1,5 @@
 # Stutern Cohort 1.6 Software Developer Assessment
-This is a personal profile web page built with html and css
+This is a personal profile web page built with html and css which is currently hosted [here](https://somilisa.github.io/Stutern-1.6/)
 ## Features 
 HTML
 - [x] header with full name
@@ -17,3 +17,4 @@ To use the todo list application, simply clone the repository to your local mach
 ```
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
