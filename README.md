@@ -1,5 +1,7 @@
 # Stutern Cohort 1.6 Software Developer Assessment
 This is a personal profile web page built with html and css which is currently hosted [here](https://somilisa.github.io/Stutern-1.6/)
+# Video Application
+Find the link to my 2-minute application video [here](https://www.loom.com/share/cac4a2f3e4a44452bcdd606dd30729c4?sid=78712e05-1d91-4986-a6e5-534c874eb488)
 ## Features 
 HTML
 - [x] header with full name
